@@ -8,7 +8,7 @@ namespace Calculator.Strategies
             double result = a + b;
             if (double.IsInfinity(result))
             {
-                throw new OverflowException("Multiplication result is too large.");
+                throw new OverflowException("Addition result is too large.");
             }
             return result;
         }
